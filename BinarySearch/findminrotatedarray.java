@@ -1,3 +1,4 @@
+package BinarySearch;
 public class findminrotatedarray {
     public int findMin(int[] nums) {
         int a=nums.length-1;
