@@ -20,6 +20,7 @@ public class capacity {
             int a=days(arr, i);
             if(days==a){
                 System.out.println("capacity:"+i);
+                break;
             }
             
 
