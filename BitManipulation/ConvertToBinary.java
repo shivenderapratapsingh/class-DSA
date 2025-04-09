@@ -13,6 +13,6 @@ public class ConvertToBinary {
     }
 
     public static void main(String[] args) {
-        System.out.println(binary(9));  
+        System.out.println(binary(8));  
     }
 }
