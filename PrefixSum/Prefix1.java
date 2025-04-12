@@ -1,6 +1,6 @@
 package PrefixSum;
 
-public class prefix {
+public class Prefix1 {
     public static void prefix1(int [] arr){
         int a=arr.length;
         int [] prefix=new int[a];
