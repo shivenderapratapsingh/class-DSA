@@ -16,9 +16,9 @@ public class SubArraySumDivByK {
             currentSum += num;
 
            
-            if (map.containsKey(currentSum%key==0)) {
-                count += map.get(currentSum%key==0);
-            }
+            // if (map.containsKey(currentSum%key==0)) {
+            //     count += map.get(currentSum%key==0);
+            // }
 
            
             map.put(currentSum, map.getOrDefault(currentSum, 0) + 1);
