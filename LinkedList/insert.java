@@ -30,7 +30,7 @@ public class insert {
         temp3.next=last;
         Node Temp=temp1;
         while(Temp!=null){
-            System.out.println(Temp.data);
+            System.out.print(Temp.data+" ");
             Temp=Temp.next;
         }
     }
