@@ -18,7 +18,17 @@ public class insert {
         a.next=b;
         b.next=c;
         c.next=e;
-        Node Temp=a;
+        Node temp1=new Node(90);
+        //head
+        temp1.next=a;
+        Node temp3=a;
+        //last 
+        Node last=new Node(99);
+        while(temp3.next!=null){
+            temp3=temp3.next;
+        }
+        temp3.next=last;
+        Node Temp=temp1;
         while(Temp!=null){
             System.out.println(Temp.data);
             Temp=Temp.next;
