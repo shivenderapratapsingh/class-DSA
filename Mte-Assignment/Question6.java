@@ -1,6 +1,4 @@
-import java.util.HashMap;
 import java.util.HashSet;
-import java.util.Map;
 public class Question6 {
     public static int lengthOfLongestSubstring(String s) {
         HashSet<Character> hs = new HashSet<>();
