@@ -43,4 +43,9 @@ public class Question46 {
     
         return LPS;
       }
+      public static void main(String[] args) {
+        Question46 q = new Question46();
+        String input = "babad";
+        System.out.println("Longest Palindromic Substring of \"" + input + "\": " + q.longestPalindrome(input));
+      }
 }
