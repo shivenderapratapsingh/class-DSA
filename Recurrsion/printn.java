@@ -1,4 +1,4 @@
-package Recurrsion;
+
 
 public class printn {
      static int sum(int n) {

@@ -1,5 +1,3 @@
-package Recurrsion;
-
 public class power {
     // in logn time
     // power of 2^n

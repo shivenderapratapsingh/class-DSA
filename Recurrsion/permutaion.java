@@ -1,5 +1,3 @@
-package Recurrsion;
-
 public class permutaion {
     static void permute(String s, String curr) {
         if (s.length() == 0) {

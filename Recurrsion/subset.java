@@ -1,4 +1,4 @@
-package Recurrsion;
+
 public class subset {
     static void sub(String s,String curr,int index){
         if(index==s.length()){
