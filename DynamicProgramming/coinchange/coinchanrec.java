@@ -1,6 +1,6 @@
 package coinchange;
 
-public class coinchan1 {
+public class coinchanrec {
     public static int count(int coins[], int sum) {
         return countRec(coins, coins.length, sum);
         
