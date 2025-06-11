@@ -1,4 +1,4 @@
-package coinchange;
+package CoinChange;
 
 public class coinchangememo {
       public static int count(int coins[], int sum) {
