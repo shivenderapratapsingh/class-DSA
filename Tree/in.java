@@ -1,7 +1,4 @@
 package Tree;
-
-import org.w3c.dom.Node;
-
 class Node1{
     int data;
     Node1 left;
