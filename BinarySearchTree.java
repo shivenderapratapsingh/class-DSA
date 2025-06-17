@@ -1,4 +1,4 @@
-package Tree;
+
 
 class Node{
     int data;
@@ -38,6 +38,22 @@ class BST{
         print(root.right);
 
     }
+    public boolean isValidBST(Node root) {
+    return isValidBSTHelper(root, Integer.MIN_VALUE, Integer.MAX_VALUE);
+}
+
+private boolean isValidBSTHelper(Node node, int min, int max) {
+    if (node == null) return true;
+
+    if (node.data <= min || node.data >= max)
+        return false;
+
+    return isValidBSTHelper(node.left, min, node.data) &&
+           isValidBSTHelper(node.right, node.data, max);
+}
+
+
+
 }
 public class BinarySearchTree { 
     public static void main(String[] args) {
@@ -48,6 +64,8 @@ public class BinarySearchTree {
              root= a.insert(root, i);
         }
         a.print(root);
+        
+        System.out.println(a.isValidBST(root));
 
 
         
