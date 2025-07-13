@@ -14,7 +14,6 @@ class TreeNode{
 public class Question21 {
 
 
-
     public static void leve(TreeNode root){
         if(root==null) System.out.println("null");
         Queue<TreeNode> q=new LinkedList<>();
